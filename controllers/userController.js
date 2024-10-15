@@ -1,6 +1,5 @@
 import  { User, validateUser } from "../models/user.Model.js";
 import bcrypt from "bcrypt";
-import Profile from "../models/user_Profile.Model.js";
 import jwt from "jsonwebtoken";
 import { Socket } from 'socket.io';
 import UserNotification from "../models/userNotification.Model.js";
